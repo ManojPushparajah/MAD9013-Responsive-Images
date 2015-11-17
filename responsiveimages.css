@@ -1,0 +1,39 @@
+*{
+margin:0;
+border:0;
+padding:0;
+box-sizing: border-box;
+}
+#masthead{
+max-width: 1024;
+width:100%;
+}
+
+li{
+display:block;
+list-style: none;
+text-decoration:none;
+float:left;
+margin: 1%;	
+}
+picture,img{
+width:100%;
+height:auto;
+}
+@media all and (min-width: 600px){
+li{
+text-decoration:none;
+width:40%;
+}
+}
+@media all and (min-width:1024px){
+ li{
+text-decoration:none;
+width:30%;
+margin: 1%;
+}
+#masthead{
+margin-left:auto;
+margin-right:auto;
+}
+}
